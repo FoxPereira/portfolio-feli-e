@@ -1,17 +1,37 @@
 {
-  "name": "projeto",
+  "name": "tarefa-semana-6",
   "version": "1.0.0",
-  "description": "portfolio",
-  "main": "curriculo.test.js",
+  "description": "tarefa da última semana de 2022",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "test": "test"
+    "test": "jest"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Felipe_Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-html-reporter": "^3.7.0"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Report"
+        }
+      ]
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FoxPereira/portfolio-feli-e.git"
   },
-  "author": "FelipePereira",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/FoxPereira/portfolio-feli-e/issues"
   },
