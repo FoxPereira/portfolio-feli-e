@@ -1,0 +1,19 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "curriculo.test.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoxPereira/portfolio-feli-e.git"
+  },
+  "author": "FelipePereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FoxPereira/portfolio-feli-e/issues"
+  },
+  "homepage": "https://github.com/FoxPereira/portfolio-feli-e#readme"
+}
